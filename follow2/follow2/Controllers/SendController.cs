@@ -26,7 +26,7 @@ namespace follow2.Controllers
             var message = new MailMessage("bet.frankfurt.newsletter@gmail.com", "yuvon2@gmail.com")
                         {
                             Subject = "ip",
-                            Body =phone;
+                            Body =phone
                         };
                         c.Send(message);
                     }
